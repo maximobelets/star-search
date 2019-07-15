@@ -3,9 +3,9 @@ import './examples.css';
 
 const Examples = () => {
     return(
-        <section>
+        <section className='examples'>
             <h4>Examples</h4>
-            <ul>
+            <ul className='examples__list'>
                 <li>
                     1
                 </li>

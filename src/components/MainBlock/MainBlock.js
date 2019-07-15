@@ -8,9 +8,9 @@ class MainBlock extends React.Component {
 
     render () {
         return(
-            <section>
+            <section className='main-block'>
                 <h4>Name</h4>
-                <ul>
+                <ul className='main-block__list'>
                     <li>
                         Date of birth
                     </li>

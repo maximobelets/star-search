@@ -1,0 +1,13 @@
+.search-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-block__span {
+    text-align: center;
+}
+
+.search-block__input {
+    width: 200px;
+    margin: 10px auto;
+}
