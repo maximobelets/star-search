@@ -1,9 +1,0 @@
-.examples {
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-}
-
-.examples__list {
-    list-style: none;
-}
