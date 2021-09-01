@@ -1,5 +1,5 @@
 const initialState = {
-	data: null
+	data: []
 };
 
 export const rootReducer= (state = initialState, action: any) => {
@@ -9,6 +9,10 @@ export const rootReducer= (state = initialState, action: any) => {
 		case 'GET':
 			return {
 				data: payload.data
+			}
+		case 'DELETEELEMENT':
+			return {
+				data: state.data.filter(el => el !== payload)
 			}
 		default:
 			return state
