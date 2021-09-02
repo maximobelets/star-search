@@ -10,8 +10,9 @@ export const rootReducer= (state = initialState, action: any) => {
 			return {
 				data: payload.data
 			}
-		case 'DELETEELEMENT':
+		case 'DELETE_ELEMENT':
 			return {
+				...state,
 				data: state.data.filter(el => el !== payload)
 			}
 		default:

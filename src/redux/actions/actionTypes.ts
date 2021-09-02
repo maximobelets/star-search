@@ -1,3 +1,3 @@
 export const GET = 'GET';
 
-export const DELETEELEMENT = 'DELETEELEMENT';
+export const DELETE_ELEMENT = 'DELETE_ELEMENT';
